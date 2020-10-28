@@ -44,7 +44,7 @@
     });
 
     socket.on('stocks', (message) => {
-        // console.log("Received " + message.length + " price updates.");
+        console.log("Received " + message.length + " price updates.");
         priceinfo.prices = message;
         // console.log(priceinfo.prices);
     });
